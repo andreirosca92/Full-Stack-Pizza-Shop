@@ -1,0 +1,60 @@
+{
+    "pizza": [
+        {
+            "id": 1,
+            "name": "Margherita",
+            "ingredients": "Sale, olio, Mozzarella, Pomodoro, Origano",
+            "price": "5.00",
+            "currency": "euro",
+            "url": "/images/pizzas/margherita.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Salamino piccante",
+            "ingredients": "Sale, olio, Mozzarella, Pomodoro, Salamino piccante ",
+            "price": "6.00",
+            "currency": "euro",
+            "url": "/images/pizzas/salamino_piccante.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Prosciutto cotto",
+            "ingredients": "sale, olio, mozzarella, pomodoro, prosciutto cotto",
+            "price": "6.00",
+            "currency": "euro",
+            "url": "/images/pizzas/prosciutto_cotto.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Diavola",
+            "ingredients": "Sale, olio, Mozzarella, pomodoro, salamino piccante, melanzane grigliate, Parmigiano",
+            "price": "8.00",
+            "currency": "euro",
+            "url": "/images/pizzas/Diavola.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Capricciosa",
+            "ingredients": "sale, olio, mozzarella, pomodoro, prosciutto cotto, olive verdi e nere, funghi, carciofi, uova",
+            "price": "7.00",
+            "currency": "euro",
+            "url": "/images/pizzas/capricciosa.jpg"
+        },
+        {
+            "id": 6,
+            "name": "4 Stagioni",
+            "ingredients": "sale, olio, mozzarella, pomodoro, prosciutto cotto, olive nere, funghi, carciofi",
+            "price": "7.00",
+            "currency": "euro",
+            "url": "/images/pizzas/4_stagioni.png"
+        },
+        {
+            "id": 7,
+            "name": "Hawaiana",
+            "ingredients": "sale, olio, mozzarella, pomodoro, prosciutto cotto, ananas",
+            "price": "9.00",
+            "currency": "euro",
+            "url": "/images/pizzas/pizza_hawaiana.jpg"
+        }
+    ]
+}
