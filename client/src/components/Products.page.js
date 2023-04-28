@@ -16,6 +16,7 @@ export const ProductsPage = () => {
     console.log("Perform side effect after encountering error", error);
   };
   const { data, error, isLoading } = usePizzasData(onSuccess, onError);
+  console.log({ data });
   if (isLoading) {
     return <h2>Loading data...</h2>;
   }
@@ -35,7 +36,7 @@ export const ProductsPage = () => {
           }}
           className="justify-content-around"
         >
-          {data?.data.pizza.map((pizza) => {
+          {data?.data?.map((pizza) => {
             return (
               <Card item={pizza} key={pizza.id}>
                 {" "}

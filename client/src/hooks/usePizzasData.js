@@ -1,5 +1,5 @@
-import { request } from "../utils/axios-utils";
 import { useQuery } from "@tanstack/react-query";
+import { request } from "../utils/axios-utils";
 
 const fetchPizzaProducts = () => {
   return request({ url: "/products-pizza" });

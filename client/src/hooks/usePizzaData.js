@@ -7,19 +7,19 @@ const fetchPizzaData = ({ queryKey }) => {
 };
 
 export const usePizzaData = (pizzaId) => {
-  //   const queryClient = useQueryClient();
-  //   console.log(queryClient.getQueryData(["pizza-products"]));
-  //   return useQuery(["pizza", pizzaId], fetchPizzaData, {
-  //     initialData: () => {
-  //       const pizza = queryClient
-  //         .getQueryData(["pizza-products"])
-  //         ?.data?.data?.find((pizza) => pizza.id === parseInt(pizzaId));
-  //       console.log(pizza);
-  //       if (pizza) {
-  //         return { data: pizza };
-  //       } else {
-  //         return undefined;
-  //       }
-  // },
-  //   });
+  const queryClient = useQueryClient();
+
+  return useQuery(["pizza", pizzaId], fetchPizzaData, {
+    initialData: () => {
+      const pizza = queryClient
+        .getQueryData(["pizza-products"])
+        ?.data?.data?.find((pizza) => pizza.id === parseInt(pizzaId));
+      console.log(pizza);
+      if (pizza) {
+        return { data: pizza };
+      } else {
+        return undefined;
+      }
+    },
+  });
 };
