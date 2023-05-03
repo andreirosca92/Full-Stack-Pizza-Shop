@@ -27,7 +27,9 @@ function App() {
           </nav>
           <Routes>
             <Route path="/about" element={<AboutPage />} />
+
             <Route path="/" element={<HomePage />} />
+
             <Route path="/products-pizza" element={<ProductsPage />} />
             <Route path="/products-pizza">
               <Route path=":pizzaId" element={<PizzaPage />} />
