@@ -2,9 +2,8 @@
 
 - [x] I Fixed the bug React Query
 - [x] I added the connection to mongodb
-- [ ] I don't like Bootstrap for React (some bad bugs)
-- [ ] Building better code (Routes, Middleware, etc)
-- [ ] Maybe I will use Material UI React
+- [x] Building better code (Routes, Middleware, etc)
+- [ ] Material UI React
 - [ ] Creating a Registration and Login Page
 - [ ] Implementing authentication and authorization with full-stack application
 - [ ] Adding a shopping cart
